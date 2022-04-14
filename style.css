@@ -31,6 +31,7 @@ header {
     font-size: 18px;
     color: #E5E7EB;
     padding: 50px;
+    padding-top: 0;
 
 }
 
@@ -38,6 +39,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 50px;
 }
 
 .hcontent {
