@@ -52,13 +52,26 @@ header {
     width: 50%;
 }
 
+.hcontentright {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+
 .placeholder {
     background-color: grey;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
     /* margin: auto; */
     /* flex-grow: 1; */
-    align-items: stretch;
+    /* align-items: stretch; */
     /* justify-content: center; */
+
 }
 
 ul {
