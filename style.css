@@ -13,14 +13,17 @@ body {
     flex-direction: column;
     justify-content: space-between;
     height: 100vh;
+    flex-shrink: 0;
 
 }
 
 main {
+    padding: 0 20% 0 20%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 50px;
+    flex-grow: 1;
+
 }
 
 
@@ -30,8 +33,7 @@ header {
     background-color: #1F2937;
     font-size: 18px;
     color: #E5E7EB;
-    padding: 50px;
-    padding-top: 0;
+    padding: 0 20% 0 20%;
 
 }
 
@@ -39,17 +41,21 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 50px;
+    margin-bottom: 15px;
+    /* padding-bottom: 50px; */
 }
 
 .hcontent {
     display: flex;
     align-items: center;
+    margin: 45px 0 45px 0;
+    /* padding: 15% 0; */
 
 }
 
 .hcontentleft {
     width: 50%;
+    padding-right: 50px;
 }
 
 .hcontentright {
@@ -79,6 +85,7 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    gap: 20px;
 
 }
 
@@ -105,19 +112,22 @@ h2 {
 button {
     background-color: #3882F6;
     color: white;
+    padding: 5px 20px;
+    border-radius: 8px;
+    margin-top: 7px;
 }
 
 .infobox {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    /* justify-content: center; */
 }
+
+
 
 .infoboxcontentbox {
     display: flex;
-    gap: 100px;
-    /* justify-content: space-between; */
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 
 }
 
@@ -147,5 +157,6 @@ footer {
     display: flex;
     padding: 10px;
     font-size: 18px;
+    padding: 0 20% 0 20%;
 
 }
